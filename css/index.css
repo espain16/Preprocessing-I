@@ -134,3 +134,14 @@ html,
 body {
   height: 100%;
 }
+.header {
+  background-color: purple;
+  display: flex;
+  justify-content: flex-end;
+}
+.intro h1 {
+  border: 1px solid red;
+}
+.intro .team-up-btn {
+  background-color: aquamarine;
+}
