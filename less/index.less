@@ -57,25 +57,73 @@ html, body {
 	height: 100%;
 	
 }
-
+p{
+line-height: 1.4;	
+}
 //Variables
+@black: black;
+@h2-size: 2rem;
 
+//Mixins
+.text-deco(){
+ text-decoration: none;
+ color: @black;
+}
+
+.container{
+width: 800px;	
+margin: 0 auto;
+background-color: #FAF8F4;
+
+}
 //Header
-.header {
-	background-color: purple;
+header {
 	display: flex;
 	justify-content: flex-end;
-	nav{
+	align-items: space-between;
+	
+	nav {
+			
+		a{
+			.text-deco();
+				
+		}
 		
-	}//nav
+	} //nav
+}
+img{
+
 }
 .intro{
+	border-bottom: 2px solid #D4AF37;
 	h1{
-	border: 1px solid red;
+	font-size: 3rem;
+	
 	}
 	.team-up-btn{
-		background-color: aquamarine;
+		background-color:#FBA69C;
+		display: block;
+		width: 200px;
+		height: 45px;
+		font-size: 1.5rem;
+		margin: 2%;
+		border: none;
+		border-radius: 12px;
+		color:white;
+
+
 
 	}
 }
 
+.mid-content{
+	h2{
+	font-size: @h2-size;
+	}
+}
+
+.botttom-content{
+	h2{
+		font-size: @h2-size;
+	}
+}

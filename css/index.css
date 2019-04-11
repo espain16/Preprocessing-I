@@ -134,14 +134,43 @@ html,
 body {
   height: 100%;
 }
-.header {
-  background-color: purple;
+p {
+  line-height: 1.4;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FAF8F4;
+}
+header {
   display: flex;
   justify-content: flex-end;
+  align-items: space-between;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+.intro {
+  border-bottom: 2px solid #D4AF37;
 }
 .intro h1 {
-  border: 1px solid red;
+  font-size: 3rem;
 }
 .intro .team-up-btn {
-  background-color: aquamarine;
+  background-color: #FBA69C;
+  display: block;
+  width: 200px;
+  height: 45px;
+  font-size: 1.5rem;
+  margin: 2%;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+.mid-content h2 {
+  font-size: 2rem;
+}
+.botttom-content h2 {
+  font-size: 2rem;
 }
