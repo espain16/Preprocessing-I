@@ -80,7 +80,7 @@ background-color: #FAF8F4;
 header {
 	display: flex;
 	justify-content: flex-end;
-	align-items: space-between;
+	
 	
 	nav {
 			
@@ -91,14 +91,13 @@ header {
 		
 	} //nav
 }
-img{
 
-}
 .intro{
 	border-bottom: 2px solid #D4AF37;
+	padding-bottom: 20px;
+	
 	h1{
 	font-size: 3rem;
-	
 	}
 	.team-up-btn{
 		background-color:#FBA69C;
@@ -111,18 +110,25 @@ img{
 		border-radius: 12px;
 		color:white;
 
-
-
 	}
 }
-
-.mid-content{
+.middle{
+	display: flex;
+	justify-content: center;
+	.mid-content{
+		width: 50%;
+		padding: 0 1%;
+		padding-bottom: 20px;
+		margin-top: 20px;
 	h2{
 	font-size: @h2-size;
 	}
+	}
 }
-
-.botttom-content{
+.bottom-content{
+	border-top:2px solid #D4AF37;
+	
+	
 	h2{
 		font-size: @h2-size;
 	}

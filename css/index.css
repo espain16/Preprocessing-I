@@ -145,7 +145,6 @@ p {
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: space-between;
 }
 header nav a {
   text-decoration: none;
@@ -153,6 +152,7 @@ header nav a {
 }
 .intro {
   border-bottom: 2px solid #D4AF37;
+  padding-bottom: 20px;
 }
 .intro h1 {
   font-size: 3rem;
@@ -168,9 +168,22 @@ header nav a {
   border-radius: 12px;
   color: white;
 }
-.mid-content h2 {
+.middle {
+  display: flex;
+  justify-content: center;
+}
+.middle .mid-content {
+  width: 50%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.middle .mid-content h2 {
   font-size: 2rem;
 }
-.botttom-content h2 {
+.bottom-content {
+  border-top: 2px solid #D4AF37;
+}
+.bottom-content h2 {
   font-size: 2rem;
 }
