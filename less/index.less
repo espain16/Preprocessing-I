@@ -96,6 +96,8 @@ img{
 	border-radius:50%;
 }
 .intro{
+	//display: flex;
+	//flex-direction: row;
 	//border-bottom: 2px solid #D4AF37;
 	padding-bottom: 20px;
 	//border: 1px solid red;
@@ -119,15 +121,14 @@ img{
 }
 .middle{
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+
 	//justify-content: center;
 	.mid-content{
 		width: 50%;
 		padding: 0 1%;
 		padding-bottom: 20px;
 		margin-top: 20px;
-		border: 1px solid greenyellow;
+		//border: 1px solid greenyellow;
 	h2{
 	font-size: @h2-size;
 	}
@@ -135,12 +136,21 @@ img{
 }
 .bottom-content{
 	//border-top:2px solid #D4AF37;
-	border: 2px solid green;
+	//border: 2px solid green;
 	
 	h2{
 		font-size: @h2-size;
 	}
+	p{
+		padding: 10px;
+	}
+}
+th,td{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	
 }
 footer{
-	border: 2px solid purple;
+	//border: 2px solid purple;
+	padding:10px;
 }

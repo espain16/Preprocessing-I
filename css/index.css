@@ -178,25 +178,27 @@ img {
 }
 .middle {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 .middle .mid-content {
   width: 50%;
   padding: 0 1%;
   padding-bottom: 20px;
   margin-top: 20px;
-  border: 1px solid greenyellow;
 }
 .middle .mid-content h2 {
   font-size: 2rem;
 }
-.bottom-content {
-  border: 2px solid green;
-}
 .bottom-content h2 {
   font-size: 2rem;
 }
+.bottom-content p {
+  padding: 10px;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
 footer {
-  border: 2px solid purple;
+  padding: 10px;
 }
